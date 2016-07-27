@@ -1,0 +1,50 @@
+.clear{
+    font-size:15px;
+    font-weight:bold;
+    background-color:#FFFFFF;
+    background-position:48px 0;
+    padding:16px 4.5%;
+}
+.row li{
+    list-style-type:none;
+    cursor:pointer;
+}
+.oddRow{
+    background-color:#F9EFEF;
+}
+.evenRow{
+    background-color:#CEC2C2;
+ }
+
+/* Begin layout */
+.containerMain{
+    margin:0 3%;
+}
+.headerTop{    
+    height:30px;
+}
+
+.colLeft, .colCenter, .colRight{    
+    height:400px;   
+}
+.colLeft{
+    padding-top:180px;
+}
+
+/* Begin test colors */
+.maroon{
+    color:#770909;
+}
+.gray{
+    background-color:#CCCCCC;
+}
+.red{
+    background-color:#880000;
+}
+.green{
+    background-color:#008800;
+}
+.blue{
+    background-color:#000088;
+}
+/* End test colors */

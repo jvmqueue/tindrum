@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="scripts/base/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/main.css" />    
+    <title>CNN Exam</title>
+</head>
+<body>
+    <div id="container" class="containerMain container-fluid">        
+        <div class="pagination-centered">
+        <section class="headerTop row gray">
+            <div class="col-xs-3"><lable>Users:</lable><span id="numberCountTiger" class="numberCount">&#160;</span></div>
+            <div class="col-xs-3"><lable>Photo Albums:</lable><span id="numberCountMonkey" class="numberCount">&#160;</span></div>
+            <div class="col-xs-3"><lable>Items in Album:</lable><span id="numberCountSnake" class="numberCount">&#160;</span></div>
+            <div class="col-xs-3"><lable>Album Photo List:</lable><span id="numberCountSnake" class="numberCount">&#160;</span></div>
+        </section>    
+        <section class="row">
+            <div id="user" class="col-xs-3">User</div>
+            <div id="thumbnailPhotoAlbums" class="col-xs-3">Thumbnail for Photo Albums List</div>
+            <div id="itemsInPhotoAlbum" class="col-xs-3">Thumbnails for Items in Photo Album</div>
+            <div id="albumInPhotoList" class="col-xs-3">Album in Photo List</div>
+        </section> <!-- End .row -->
+        </div> <!-- End div.pagination-centered -->
+    </div>
+    <script src="scripts/base/jquery/dist/jquery.js"></script>    
+    <script src="scripts/dom.js"></script>
+    <script src="scripts/inheritance.js"></script>
+    <script src="scripts/httpRequest.js"></script>
+    <script src="scripts/main.js"></script>    
+</body>
+</html>
